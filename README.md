@@ -15,3 +15,6 @@ Or you can use CMakeLists.txt to build a pybind library and then run test.py to 
 ``cd ..``
 
 ``python test.py``
+
+The python script will output timing using cupy's profiler. Example output on an Nvidia RTX A6000:
+![Example Output](example_output.png)
