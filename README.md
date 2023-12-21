@@ -4,7 +4,9 @@ You can directly compile the kernel.cu file to test timing and correctness
 
 ``./kernel``
 
-Or you can use CMakeLists.txt to build a pybind library and then run test.py to compare einsum kernels written in cuda/pybind, cupy, and numba cuda. The cuda/pybind code uses the cuda array interface to take pointers of arrays created in cupy.
+Or you can use `CMakeLists.txt`* to build a pybind library and then run test.py to compare einsum kernels written in cuda/pybind, cupy, and numba cuda. The cuda/pybind code uses the cuda array interface to take pointers of arrays created in cupy.
+
+*you will need to modify the `CMakeLists.txt` file to point to your python installation
 
 ``mkdir build; cd build;``
 
